@@ -7,10 +7,10 @@ import (
 )
 
 const (
-	numPollers		= 2
+	numPollers	= 2
 	pollInterval	= 60 * time.Second
 	statusInterval	= 10 * time.Second
-	errTimeout		= 10 * time.Second
+	errTimeout	= 10 * time.Second
 )
 
 var urls = []string{
